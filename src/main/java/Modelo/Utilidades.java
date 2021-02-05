@@ -19,7 +19,7 @@ import Modelo.Alumno;
  * @author User
  */
 public class Utilidades {
-    public static ArrayList<Alumno> getProductos(String fichero) throws FileNotFoundException, IOException{
+    public static ArrayList<Alumno> getAlumnos(String fichero) throws FileNotFoundException, IOException{
             ArrayList<Alumno> alumnos = new ArrayList<Alumno>();
             Alumno a;
             try {

@@ -48,8 +48,8 @@ public class AlumnosServlet extends HttpServlet {
         grupos.add("2daw_a");
         grupos.add("2daw_b");
         try {
-            daw_a2 = Utilidades.getProductos(rutaFichero.concat(File.separator).concat("2daw_a.txt"));
-            daw_b2 = Utilidades.getProductos(rutaFichero.concat(File.separator).concat("2daw_b.txt"));
+            daw_a2 = Utilidades.getAlumnos(rutaFichero.concat(File.separator).concat("2daw_a.txt"));
+            daw_b2 = Utilidades.getAlumnos(rutaFichero.concat(File.separator).concat("2daw_b.txt"));
         } catch (IOException ex) {
             Logger.getLogger(AlumnosServlet.class.getName()).log(Level.SEVERE, null, ex);
         }
